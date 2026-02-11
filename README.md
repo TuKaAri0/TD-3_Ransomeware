@@ -8,19 +8,19 @@ Projet académique développé dans le cadre du cours de cybersécurité portant
 
 ## Fonctionnalités
 
-### ✅ Partie A : Vérification des Dépendances (2 points)
+### ✅ Partie A : Vérification des Dépendances
 - Vérification automatique de Python 3.8+
 - Détection des bibliothèques `cryptography` et `paramiko`
 - Installation automatique des dépendances manquantes
 - Gestion complète des erreurs d'installation
 
-### ✅ Partie B : Menu Principal (3 points)
+### ✅ Partie B : Menu Principal
 - Interface textuelle interactive avec options numérotées
 - Validation robuste des saisies utilisateur
 - Retour au menu principal après chaque opération
 - Affichage clair des erreurs et des succès
 
-### ✅ Partie C : Génération de Clés (4 points)
+### ✅ Partie C : Génération de Clés
 - Support de plusieurs longueurs : 128, 192, 256 bits
 - Algorithmes disponibles :
   - **AES** : Génération aléatoire sécurisée
@@ -28,21 +28,21 @@ Projet académique développé dans le cadre du cours de cybersécurité portant
 - Stockage dans `/var/keys/` avec permissions 600 (rw-------)
 - Format JSON avec métadonnées (timestamp, longueur, format)
 
-### ✅ Partie D : Transfert SFTP (3 points)
+### ✅ Partie D : Transfert SFTP
 - Configuration interactive des paramètres de connexion
 - Authentification par mot de passe ou clé SSH
 - Création automatique des répertoires distants
 - Vérification du succès du transfert
 - Gestion complète des erreurs de connexion
 
-### ✅ Partie E : Sélection et Chiffrement (4 points)
+### ✅ Partie E : Sélection et Chiffrement
 - Sélection de fichiers individuels
 - Sélection de dossiers entiers
 - Chiffrement in-place (remplacement du fichier original)
 - Mode de sauvegarde optionnel (.enc)
 - Utilisation d'AES-CBC avec IV aléatoire
 
-### ✅ Partie F : Fonctionnalités Avancées (3 points)
+### ✅ Partie F : Fonctionnalités Avancées
 - Chiffrement récursif des sous-dossiers
 - Barre de progression pour les opérations longues
 - Statistiques de chiffrement (succès/échecs)
