@@ -1,0 +1,8 @@
+# TD-03 : Ransomware - Gestion des Clés et Chiffrement
+# Dépendances Python requises
+
+# Bibliothèque de cryptographie pour AES, PBKDF2, etc.
+cryptography>=41.0.0
+
+# Bibliothèque pour les connexions SFTP/SSH
+paramiko>=3.3.0
