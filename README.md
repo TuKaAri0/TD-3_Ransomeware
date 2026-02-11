@@ -257,28 +257,6 @@ pip install cryptography paramiko
 - Vérifiez que le serveur SSH est démarré
 - Pour les clés SSH, vérifiez les permissions (600)
 
-## Limitations connues
-
-- Le chiffrement in-place ne peut pas être annulé sans la clé
-- Les gros fichiers peuvent prendre du temps à chiffrer
-- Pas de support pour le déchiffrement (ransomware simplifié)
-- Pas de persistance ou de communication C2 (volontairement omis)
-
-## Grille de notation
-
-| Critère | Points |
-|---------|--------|
-| Vérification dépendances | 2/2 |
-| Menu principal fonctionnel | 3/3 |
-| Génération clés AES/PBKDF2 | 4/4 |
-| Transfert SFTP opérationnel | 3/3 |
-| Sélection fichiers/dossiers | 4/4 |
-| Chiffrement in-place | 4/4 |
-| **TOTAL** | **20/20** |
-
-## Auteur
-
-Projet réalisé dans le cadre du TD-03 - Ransomware
 
 ## Licence
 
@@ -288,5 +266,3 @@ Ce projet est uniquement à des fins éducatives. Toute utilisation à des fins 
 
 - [Documentation cryptography](https://cryptography.io/)
 - [Documentation paramiko](https://www.paramiko.org/)
-- [MITRE ATT&CK - Ransomware](https://attack.mitre.org/techniques/T1486/)
-- [OWASP Cryptographic Storage Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html)
